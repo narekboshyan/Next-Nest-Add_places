@@ -1,0 +1,7 @@
+mutation signin($data: SigninDTO!) {
+ signIn(data: $data) {
+  id
+  fullName
+  email
+ }
+}
